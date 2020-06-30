@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+	margin:0;padding:0;border:0;outline:0;
+	/*text-align:left;*/
+}
+p{margin:0;padding:0;border:0;outline:0;}
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:".";height:0;clear:both;}
+* html .clearfix{height:1%;zoom:1;}
+
+body{color:#000;background:#fff;font-size:15px;font-family:"微软雅黑",arial,helvetica,sans-serif;overflow-x:hidden}
+a img{border:none}
+
+
+q:before, q:after{content:"";}
+
+ul,li,ol,dt,dl,dd{list-style:none}
+input,select,textarea,form img,button{padding:0;margin:0;vertical-align:middle;line-height:normal}
+html{zoom:1;-webkit-text-size-adjust:none;}
+html button::-moz-focus-inner{border-color:transparent!important;} 
+
+p{margin:0 0 1em 0}
+h1{margin:0;font-size:12px;font-weight:100}
+h2{margin:0;font-size:12px;font-weight:100}
+h3{margin:0;font-size:12px;font-weight:100}
+h4{margin:0;font-size:12px;font-weight:100}
+h5{margin:0;font-size:12px;font-weight:100}
+h6{margin:0;font-size:12px;font-weight:100}
+
+a{color:#000;text-decoration:none}
+/* a:link, a:visited{color:#000;text-decoration:none} */
+a:hover, a:active{color:#C00;text-decoration:none;}
+
+/* 公用样式 */
+.fl{float:left}.fr{float:right}
+.center{margin:0 auto;text-align:center}
+.block{display:block}.inline{display:inline}
+.show{display:block;visibility:visible}
+.hide{display:none;visibility:hidden}
+.undis{display:none;}
+.hidden{overflow:hidden}
+
+.transparent{filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5} 
+.break{word-wrap:break-word;overflow:hidden/*word-break:break-all;*/}
+
+.tl{text-align:left}
+.tr{text-align:right}
+.tc{text-align:center}
+.pointer{cursor:pointer}
+
+.colwrapper {overflow:hidden;zoom:1/*for ie*/margin:5px auto}/* 高度自适应 */ 
+
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:".";height:0;clear:both;}
+* html .clearfix{height:1%;zoom:1;}
+.clearfix{display:block;}
+
+.clear{clear:both;line-height:0;height:0;font-size:0}
+
+
+/** 网站整字体大小,直接使用"font+字体大小"作为名称,如 */
+.small{font-size:10px}
+.large{font-size:19px}
+.font14px{font-size:14px}
+.font12px{font-size:12px}
+.fb{font-weight:bold}
+.f100{font-weight:100}
+
+
+.hr-2,.hr-3,.hr-4,.hr-5,.hr-6,.hr-7,.hr-8,.hr-9,.hr-10,.hr-11,.hr-12,.hr-13,.hr-14,.hr-15,.hr-17,.hr-19,.hr-23,.hr-26,.hr-30,.hr-35,.hr-55{clear:both;overflow:hidden;font-size:1px;line-height:1px}
+.hr-2{height:2px}.hr-3{height:3px}.hr-4{height:4px}.hr-5{height:5px}.hr-6{height:6px}.hr-7{height:7px}.hr-8{height:8px}.hr-9{height:9px}.hr-10{height:10px}.hr-11{height:11px}.hr-12{height:12px}.hr-13{height:13px}.hr-14{height:14px}.hr-15{height:15px}.hr-17{height:17px}.hr-20{height:20px}.hr-23{height:23px}.hr-30{height:30px}.hr-35{height:35px}.hr-55{height:55px}
+
+
+/** 网站整体颜色总汇:使用颜色的名称 */
+.red{color:#c00}.green{color:#093}.blue{color:#03f}
+.black{color:#000}.white{color:#fff}.gray{color:#666}
+.yellow{color:#FC0}
+.yellow02{color:#9A3E00}
+.yellow03{color:#ce4900}
+
+
+/* 兼容IE6的定位属性fixed，固定不动样式 */
+.fixed{
+position:fixed;clip:rect(0 100% 100% 0);bottom:0;left:0;
+_position:absolute;
+_top:expression(document.documentElement.scrollTop+document.documentElement.clientHeight-this.clientHeight);
+/*_left:expression(document.documentElement.scrollLeft + document.documentElement.clientWidth - offsetWidth);*/
+}
+/* 解决固定层在IE6下闪的问题 */
+*html{background-image:url(about:blank);background-attachment:fixed}
+

@@ -1,0 +1,34 @@
+﻿body{overflow-x: hidden;background: url(../../images/xuzeimage/body.jpg) no-repeat top center;}
+
+area{outline:none}
+.hr-18{height: 18px}
+.hr-25{height: 25px}
+.hr-75{height: 75px}
+
+.mxs{width: 1210px;margin: 0px auto;overflow: hidden;}
+.top{height: 68px;margin:0px 0px 286px 0px;background: url(../../images/xuzeimage/fwfdew.png) no-repeat center center;}
+.top h3{text-align: center;background: url(../../images/xuzeimage/fefrdew.png) no-repeat left center;height:68px;width: 548px;margin: 0 auto;line-height: 68px;color: #fff;font-size: 28px;font-weight: 500;padding:0px 0px 0px 0px;}
+.top h3 a{padding: 0 0 0 20px;display: block;height: 68px;line-height: 68px;color: #fff;}
+.top .street{width: 548px;}
+.top h3 a:hover{color: #fff;}
+
+
+
+.eetommitte{width: 1210px;overflow: hidden;}
+.eetommitte .hd{height: 129px;margin-bottom: 22px;}
+.eetommitte .hd ul{width: 1265px;}
+.eetommitte .hd li{float: left;height: 129px;margin-right: 33px;height: 100px;width: 220px;background: url(../../images/xuzeimage/fdew.png) repeat;}
+.eetommitte .hd li a{line-height: 100px;text-align: center;display: block;font-size: 20px;color: #fcfcfc;}
+.eetommitte .hd li.on{background: url(../../images/xuzeimage/few.png) no-repeat;width: 200px;height: 129px;}
+.eetommitte .hd li.on a{font-weight: bold;}
+
+.eetommitte .bd{width: 1210px;height: 260px;}
+.eetommitte .bd ul{background: url(../../images/xuzeimage/fdew.png) repeat;padding: 31px 0px 0px 50px;overflow: hidden;height: 229px;}
+.eetommitte .bd li{width: 290px;height: 40px;float: left;margin-bottom: 40px;}
+.eetommitte .bd li a{line-height: 40px;font-size: 18px;color: #ffffff;display: block;    background: url(../../images/xuzeimage/fefdew.png) no-repeat left center;padding-left: 51px;}
+.eetommitte .gf{margin-bottom: 4px;height: 5px;background: url(../../images/xuzeimage/fdew.png) repeat;}
+
+.ditulloe{display: none;margin-top:0px;margin-left: 0px;}
+.mxsovhie .stzyjf{position: absolute;    right: 75px;top: 20px;width: 90px;height: 35px;background: url(../../images/xuzeimage/fdew.png) repeat;   /* border-radius: 10%;*/}
+.mxsovhie .stzyjf a{color: #fff;font-size:16px;line-height: 35px;    text-align: center;display: block;}
+.mxsovhie{height:96px;   position: relative;width: 1920px;    margin: 0 auto;}
